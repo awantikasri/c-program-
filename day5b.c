@@ -2,10 +2,6 @@
 #include<stdio.h>
 int main()
 { int h,m,s;
-    printf("enter hours: \n ");
-    scanf("%d", &h);
-    printf("enter minutes: \n ");
-    scanf("%d", &m);
     printf("enter seconds: \n");
     scanf("%d", &s);
 h= s/3600;
@@ -14,4 +10,5 @@ s= s%60;
 printf("HOURS MINUTES AND SECONDS ARE: %d %d %d", h,m,s);
 return 0;
 }
+
 
